@@ -4,8 +4,10 @@ import "./HomePage.css";
 export function HomePage() {
   return (
     <>
-    <Header/>
+      <Header />
       <title>Ecommerce Website</title>
+      <link rel="icon" type="image/svg+xml" href="home-favicon.png" />
+
       <div className="home-page">
         <div className="products-grid">
           <div className="product-container">
