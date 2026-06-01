@@ -101,9 +101,7 @@ npm install
 4️⃣ Start Frontend
 npm run dev
 🔥 Backend Setup
-
 Start backend server separately:
-
 npm start
 
 ⚠️ Make sure backend API URLs are correctly configured in frontend environment variables.
