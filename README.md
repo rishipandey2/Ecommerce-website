@@ -1,61 +1,69 @@
-# Ecommerce Website – React + Backend Integration
+# 🛒 Ecommerce Website (React + Backend)
 
-## 📌 Project Overview
-
-This project is a fully functional Ecommerce Website built using React, Vite, React Router, and Backend APIs.
-
-The project includes:
-- Product Listing
-- Shopping Cart
-- Checkout Page
-- Orders Page
-- Backend Integration
-- REST API Requests
-- Automated Testing
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
 ---
 
-## 🚀 Features
+## 🚀 Overview
 
-### 🏠 Home Page
-- Dynamic product rendering
-- Reusable product components
-- Responsive layout
+A **fully functional Ecommerce Web Application** built using **React (Vite)** with **backend API integration**.  
+It simulates a real-world shopping experience including product browsing, cart management, checkout flow, and order tracking.
 
-### 🛒 Cart & Checkout
-- Add to cart
-- Update quantity
-- Delete cart items
+This project focuses on:
+- Clean component architecture
+- Real backend API communication
+- Scalable frontend structure
+- Modern React practices
+
+---
+
+## ✨ Features
+
+### 🏠 Product Experience
+- Dynamic product listing from backend
+- Reusable and modular product components
+- Responsive UI across devices
+
+### 🛒 Cart System
+- Add / remove products
+- Update product quantity
+- Real-time cart updates
 - Delivery option selection
-- Payment summary
+
+### 💳 Checkout Flow
+- Order summary page
+- Price calculation
+- Delivery selection
+- Order placement system
 
 ### 📦 Orders
-- Create orders
-- Display previous orders
-- Order history page
+- View previous orders
+- Order history tracking
+- Backend-synced order data
 
-### 🔗 Routing
+### 🔗 Routing System
 - Multi-page navigation using React Router
-- Shared Header Component
-- Link Components
+- Persistent layout (Header & navigation)
+- Seamless page transitions
 
 ### 🌐 Backend Integration
-- Fetch products
-- Fetch cart data
-- Fetch order data
-- API requests using Axios
+- REST API communication
+- Axios-based requests
+- Product, cart, and order APIs
 
 ### 🧪 Testing
-- Unit Testing
-- Integration Testing
-- Mock Implementations
-- User Interaction Testing
+- Unit testing
+- Integration testing
+- React Testing Library support
 
 ---
 
-# 🛠️ Tech Stack
+## 🧠 Tech Stack
 
-## Frontend
+### Frontend
 - React
 - Vite
 - React Router DOM
@@ -63,95 +71,72 @@ The project includes:
 - HTML5
 - CSS3
 
-## Backend
+### Backend
 - Node.js
-- REST API
+- Express REST APIs
 
-## Testing
+### Testing
 - Jest
 - React Testing Library
 
 ---
 
-
-# ⚙️ Installation & Setup
-
-## 1️⃣ Clone Repository
+## 📁 Project Structure
 
 ```bash
-git clone https://github.com/your-username/ecommerce-project.git
-```
-
-## 2️⃣ Go to Project Folder
-
-```bash
-cd ecommerce-project
-```
-
-## 3️⃣ Install Dependencies
-
-```bash
+src/
+ ├── components/     # Reusable UI components
+ ├── pages/          # Application pages
+ ├── services/       # API calls (Axios)
+ ├── hooks/          # Custom hooks
+ ├── App.jsx         # Routes setup
+ └── main.jsx        # Entry point
+⚙️ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/rishipandey2/Ecommerce-website.git
+2️⃣ Move to Project Directory
+cd Ecommerce-website
+3️⃣ Install Dependencies
 npm install
-```
-
-## 4️⃣ Start Development Server
-
-```bash
+4️⃣ Start Frontend
 npm run dev
-```
+🔥 Backend Setup
 
----
+Start backend server separately:
 
-# 🔥 Backend Setup
-
-Start backend server:
-
-```bash
 npm start
-```
+
+⚠️ Make sure backend API URLs are correctly configured in frontend environment variables.
+
+📡 API Endpoints
+Method	Endpoint	Description
+GET	/products	Fetch all products
+GET	/cart	Get cart items
+PUT	/deliveryOptions	Update delivery type
+DELETE	/cartItem	Remove item from cart
+POST	/orders	Create order
+
+Rahul Pandey
+GitHub: @rishipandey2
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork it
+📢 Share it with others
+📄 License
 
 ---
 
-# 📡 API Endpoints
+## 📄 License
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | /products | Fetch products |
-| GET | /cart | Fetch cart |
-| PUT | /deliveryOptions | Update delivery option |
-| DELETE | /cartItem | Delete cart item |
-| POST | /orders | Create order |
+This project is licensed for **educational and learning purposes only**.
 
----
+You are free to:
+- Use this project for learning and practice
+- Modify and experiment with the code
+- Share it for educational use
 
-# 📸 Screenshots
-
-Add screenshots here:
-- Home Page
-- Checkout Page
-- Orders Page
-- Cart Functionality
+However, you are **not permitted** to use this project for commercial purposes without proper permission from the author.
 
 ---
-
-# 📈 Future Improvements
-
-- User Authentication
-- Payment Gateway Integration
-- Wishlist Feature
-- Product Search & Filters
-- Admin Dashboard
-- Mobile Responsive Design
-
----
-
-# 📄 License
-
-This project is created for educational and learning purposes.
-
----
-
-# 👨‍💻 Author
-
-Your Name  
-GitHub: https://github.com/rishipandey2
